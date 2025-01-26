@@ -1,0 +1,6 @@
+@DesafioNET_HostAddress = http://localhost:5147
+
+GET {{DesafioNET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

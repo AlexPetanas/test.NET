@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "DesafioNET.Controllers.OcrController",
+    "Method": "OcrText",
+    "RelativePath": "Ocr/Ocr-post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioNET.Controllers.PdfController",
+    "Method": "UploadPdf",
+    "RelativePath": "Pdf/upload-pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
